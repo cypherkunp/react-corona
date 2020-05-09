@@ -14,7 +14,6 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     };
     fetchDailyDataAPI();
   }, []);
-  console.log(dailyData);
 
   const lineChart =
     dailyData && dailyData.length ? (

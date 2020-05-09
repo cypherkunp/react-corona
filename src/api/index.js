@@ -33,7 +33,6 @@ export const fetchDailyData = async () => {
       deaths: dailyData.deaths.total,
       date: dailyData.reportDate,
     }));
-    console.log(selectiveData);
     return selectiveData;
   } catch (error) {}
 };
